@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tulip</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="js/custom.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+ <!--loader html-->
+<style type="text/css">
+  h2 {
+  color: #ccc;
+  margin: 0;
+  font: .8em verdana;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*
+ * Loading Dots
+ * Can we use pseudo elements here instead :after?
+ */
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: .6em;
+  height: .6em;
+  margin: .19em;
+  background: #007DB6;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/*
+ * Dots Colors
+ * Smarter targeting vs nth-of-type?
+ */
+.loading span:nth-of-type(2) {
+  background: #008FB2;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #009B9E;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #00A77D;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #00B247;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #5AB027;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #A0B61E;
+  animation-delay: 1.2s;
+}
+
+/*
+ * Animation keyframes
+ * Use transition opacity instead of keyframes?
+ */
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999 !important;
+  background: rgb(0, 0, 0);
+  padding: 0;    text-align: center;
+
+}.loaderclass {
+    width: 148px;
+    margin: 0 auto;
+    position: absolute;
+    top: 42%;
+    right: 45%;
+}
+@keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  50%,
+  55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+.bounceOut {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
+</style>
+<div class="loading">
+  <div class="loaderclass">
+    <h2>Loading..</h2>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  
+</div>
+ <!--loader html ends-->
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.loading').css({"visibility":"visible","display":"block"});
+  $('.loading').fadeIn('slow',function(){
+       // $('.loading').delay(3000).fadeOut();
+        $('.loading').delay(2000).fadeOut();
+
+      // $('body').css("overflow-y": "hidden");
+
+  // setTimeout( function(){ 
+ //$( ".loading" ).addClass( "bounceOut" );
+   
+  // }  , 3000 );
+      });
+  });
+//   $( window ).load(function() {
+  //$('body').css("overflow-y": "hidden");
+// });
+</script>
+
+
+  <header>
+   <div class="top-header">
+    <div class="container">
+     <nav class="top_smenu">
+       <ul class="nav float-right tsm">
+        <li class="nav-item"><a href="https://www.facebook.com/TulipWinery?fref=ts" class="icoFacebook"><i class="fa fa-facebook-f"></i></a></li>
+        <!-- <li class="nav-item"><a href="#" class="icoTwitter"><i class="fa fa-twitter"></i></a></li> -->
+        <li class="nav-item"><a href="https://www.instagram.com/tulipwinery/" class="icoinsta"><i class="fa fa-instagram"></i></a></li>
+        <!-- <li class="nav-item"><a href="#" class="icoLinkedin"><i class="fa fa-linkedin"></i></a></li> -->
+      </ul>
+      <ul class="nav float-left tm">
+
+        <li class="nav-item"><a href="#">ונתיא ורבד</a></li>
+        <li class="nav-item"><a href="blog.html">גולב</a></li>
+      </ul>
+
+    </nav>
+    <nav class="navbar navbar-expand-xl navbar-light bg-faded top-menu">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Brand -->
+      <a class="navbar-brand tulip-logo" href="index.html"><img src="img/tulip-new-logo.png"></a>
+      <!--<span class="top-search-bar"><i class="fa fa-search"></i></span>-->
+
+      <form class="searchbox top-search-bar">
+
+        <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+        <input type="submit" class="searchbox-submit" value="GO">
+        <span class="searchbox-icon"><i class="fa fa-search"></i></span>
+      </form>
+
+      <div class="collapse navbar-collapse justify-content-end" id="nav-content">   
+        <ul class="navbar-nav main-menu">
+          <li class="nav-item"><a class="nav-link" href="about.html">וניתודוא</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="friendclub.html">םירבח ןודעומ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link brand-link" href="#">בקיה</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visitorcenter.html">םירקבמ זכרמ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="giftcard.html">הנתמ סיטרכ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="giftbox.html">הנתמ תואספוק </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wineshop.html">ןייה תונח</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav wc-icon">
+          <li class="nav-item micon">
+            <a class="nav-link" href="#"><img src="img/header-sb.png"></a>
+          </li>
+          <li class="nav-item micon login-tulip">
+            <a class="nav-link" href="#">תורבחתה    <span class="menu-down-icon"><i class="fa fa-sort-desc" aria-hidden="true"></i></span></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</header>
+<section class="brand-section">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-md-offset-2 col-md-4 col-xs-12">
+        <div class="brand-box">
+          <img src="img/tulip-brand1.png">
+          <div class="brand-link-btn">
+            <span class="b_link"><a href="#">רתאב רקב  <i class="fa fa-long-arrow-right"></i></a></span>
+            <h4>יִנֹועבִצ</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-offset-2 col-md-4 col-xs-12">
+        <div class="brand-box">
+          <img src="img/tulip-brand2.png">
+          <div class="brand-link-btn">
+            <span class="b_link"><a href="#">רתאב רקב  <i class="fa fa-long-arrow-right"></i></a></span>
+            <h4>יִנֹועבִצ</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="banner-section mt-5">
+  <div class="container-fluid m-0 p-0">
+    <div class="tulip-home-banner">
+     <img src="img/home-banner.png">
+     <div class="container">
+
+       <div class="banenr-overtext">
+
+        <div class="col-md-6 col-xs-12">
+           <h3>םישנא בהואש ןיי</h3>
+           <p>םישנאל רתוי הלודג הבהאו ןייל הלודג הבהא ךותמ דלונ פילוט בקי</p>
+         
+         
+          <p class="hb-sn"><a href="#">וישכע הנק</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="homeb-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 pl0">
+        <div class="hb-img">
+          <img src="img/habout-simg.png" alt="img" class="img-responsive">
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 pr15">
+        <div class="hb-text">
+          <h3>ונילע</h3>
+          <p>ומוחתב םיליבומה ןיבו לארשיב לודגה קיטובה בקי ,םויכ ודמעמל פילוט בקי תא ואיבה – וירחאו רוצייה ךילהת ךרוא לכל האלמה בלה תמושת ןתמו תויתריציה ,תונשדחה ,ריחמל האלמ הרומת לע תדמתמ הדפקה ,תומדקתמ תויגולונכטב שומיש ,רתויב םיבוטה םימרכה תריחב ,הווקת רפכ ירבח דצל הדובעה </p>
+          <span class="hb-btn"><a href="#">וישכע הנק</a></span>
+          <span class="hb-btn-view"><a href="#">ונתוא רקב</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ho-wine">
+  <div class="container">
+    <div class="howine-heading">
+      <h3>ונלש תונייה</h3>
+      <p>םישנאל הלודג הבהא ןייל הלודג הבהא ךותמ דלונ פילוט בקי</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="ho-wine-img">
+          <img src="img/ho-wine-img1.png" alt="img">
+          <p class="ho-wine-text"><a href="#">פילוט תרדס</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="ho-wine-img">
+          <img src="img/ho-wine-img2.png" alt="img">
+          <p class="ho-wine-text"><a href="#">ורספא תרדס</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="ho-wine-img">
+          <img src="img/ho-wine-img3.png" alt="img">
+          <p class="ho-wine-text"><a href="#">ורספא תרדס</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="ho-wine-img">
+          <img src="img/ho-wine-img4.png" alt="img">
+          <p class="ho-wine-text"><a href="#">ורספא תרדס</a></p>
+        </div>
+      </div>
+    </div> 
+    <span class="hb-btn"><a href="#">תונייה לכ תא הנק</a></span> 
+  </section>
+  <section class="homeb-section">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-6 col-xs-12 pl15">
+          <div class="hb-text">
+            <h3>ונילע</h3>
+            <p>ומוחתב םיליבומה ןיבו לארשיב לודגה קיטובה בקי ,םויכ ודמעמל פילוט בקי תא ואיבה – וירחאו רוצייה ךילהת ךרוא לכל האלמה בלה תמושת ןתמו תויתריציה ,תונשדחה ,ריחמל האלמ הרומת לע תדמתמ הדפקה ,תומדקתמ תויגולונכטב שומיש ,רתויב םיבוטה םימרכה תריחב ,הווקת רפכ ירבח דצל הדובעה</p>
+            <span class="hb-btn"><a href="#">וישכע הנק</a></span>
+            <span class="hb-btn-view"><a href="#">ונתוא רקב</a></span>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 pr0">
+          <div class="hb-img">
+            <img src="img/hb-fimg.png" alt="img" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-tulip-event">
+    <div class="container">
+      <div class="htulip-event-heading">
+        <h3>בקי פילוט יעוריא</h3>
+        <p>םישנאל הלודג הבהא ןייל הלודג הבהא ךותמ דלונ פילוט בקי</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="event-content">
+            <div class="event-img">
+              <img src="img/hevent-img1.png" alt="">
+              <h4><span class="event-date"><b>30</b></span><span class="event-month">רָאּונָי</span></h4>
+            </div>
+            <div class="event-desc">
+             <h4><span><i class="fa fa-map-marker"></i></span>1234 ןועבט תירק</h4>
+             <h3>םישנאל הלודג הבהא ןייל הלודג</h3>
+             <p>םישנאל הלודג הבהא ןייל הלודג הבהא 
+              ךותמ
+              <span class="event-btn"><a href="#" class="btn-event">דוע דמל</a></span>   </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="event-content">
+            <div class="event-img">
+              <img src="img/hevent-img2.png" alt="">
+              <h4><span class="event-date"><b>30</b></span><span class="event-month">רָאּונָי</span></h4>
+            </div>
+            <div class="event-desc">
+             <h4><span><i class="fa fa-map-marker"></i></span>1234 ןועבט תירק</h4>
+             <h3>םישנאל הלודג הבהא ןייל הלודג</h3>
+             <p>םישנאל הלודג הבהא ןייל הלודג הבהא 
+              ךותמ<a href="#" class="btn-event">דוע דמל</a>  </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="event-content">
+            <div class="event-img">
+              <img src="img/hevent-img3.png" alt="">
+              <h4><span class="event-date"><b>30</b></span><span class="event-month">רָאּונָי</span></h4>
+            </div>
+            <div class="event-desc">
+              <h4><span><i class="fa fa-map-marker"></i></span>1234 ןועבט תירק</h4>
+              <h3>םישנאל הלודג הבהא ןייל הלודג</h3>
+              <p>םישנאל הלודג הבהא ןייל הלודג הבהא 
+                ךותמ <a href="#" class="btn-event">דוע דמל</a>   </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="event-content">
+              <div class="event-img">
+                <img src="img/hevent-img4.png" alt="">
+                <h4><span class="event-date"><b>30</b></span><span class="event-month">רָאּונָי</span></h4>
+              </div>
+              <div class="event-desc">
+               <h4><span><i class="fa fa-map-marker"></i></span>1234 ןועבט תירק</h4>
+               <h3>םישנאל הלודג הבהא ןייל הלודג</h3>
+               <p>םישנאל הלודג הבהא ןייל הלודג הבהא 
+                ךותמ<a href="#" class="btn-event">דוע דמל</a>  </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="view-all-event">
+           <span class="hb-btn"><a href="#">םיעוריאה לכ תא גצה</a></span>
+         </div>
+       </div>
+     </div>
+   </section>
+   <section class="hcustomer-lab">
+    <div class="container-fluid pr15">
+      <div class="row">
+        <div class="col-md-6 col-xs-12 pl0">
+          <div class="hb-img">
+            <img src="img/home-custmore-lab.png" alt="img" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 pr15">
+          <div class="hb-text">
+            <h3>ונילע</h3>
+            <p>ומוחתב םיליבומה ןיבו לארשיב לודגה קיטובה בקי ,םויכ ודמעמל פילוט בקי תא ואיבה – וירחאו רוצייה ךילהת ךרוא לכל האלמה בלה תמושת ןתמו תויתריציה ,תונשדחה ,ריחמל האלמ הרומת לע תדמתמ הדפקה ,תומדקתמ תויגולונכטב שומיש ,רתויב םיבוטה םימרכה תריחב ,הווקת רפכ ירבח דצל הדובעה</p>
+            <span class="hb-btn customer-signup"><a href="#">וישכע הנק</a></span>
+            <span class="hb-btn-view"><a href="#">ונתוא רקב</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-query">
+    <div class="container">
+      <div class="row all-pro Espero-wine">
+        <div class="col-md-12 col-xs-12">
+          <div class="wine-p">
+            <div class="row ">
+
+             <div class="col-md-5">
+              <div class="enqery-img">
+                <img src="img/home-enqery-img.png">
+              </div>
+            </div>
+            <div class="col-md-7 col-xs-12">
+              <div class="enqery-content">
+               <h3 class="pb-3">רשק ונתיא ורצ ?ןיי םיבהוא
+               </h3>
+               <p>ו בלה תמושת ןתמו תויתריציה ,תונשדחה ,ריחמל האלמ הרומת לע תדמתמ הדפקה ,תומדקתמ תויגולונכטב שומיש ,רתויב םיבוטה םימרכה תריחב ,הווקת רפכ ירבח דצל הדובעה</p>
+               <span class="hb-btn"><a href="#">רשק ונתיא רוצית</a></span>
+             </div>
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+<section class="home-instagram">
+
+</section>
+<footer class="footer-section">
+	<div class="footer-wrapper pt-5 pb-5">
+		<div class="container">
+			<div class="row">
+       <div class="col-md-4 col-xs-12">
+        <div class="footer-logo">
+         <a href="index.html"><img src="img/tulip-flogo.png"></a>
+         <ul class="nav fsm tsm">
+
+          <li class="nav-item"><a href="https://www.facebook.com/TulipWinery?fref=ts" class="icoFacebook"><i class="fa fa-facebook-f"></i></a></li>
+          <!-- <li class="nav-item"><a href="#" class="icoTwitter"><i class="fa fa-twitter"></i></a></li> -->
+          <li class="nav-item"><a href="https://www.instagram.com/tulipwinery/" class="icoinsta"><i class="fa fa-instagram"></i></a></li>
+          <!-- <li class="nav-item"><a href="#" class="icoLinkedin"><i class="fa fa-linkedin"></i></a></li> -->
+
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div class="f-menu fs-menu">
+       <h2>פילוט בקי</h2>
+       <ul>
+        <li><a href="friendclub.html">הנתמ תואספוק  </a></li>
+        <li><a href="visitorcenter.html">הנתמ סיטרכ  </a></li>
+        <li><a href="giftcard.html">םירקבמ זכרמ    </a></li>
+        <li><a href="giftbox.html">םירבח ןודעומ </a></li>
+      </ul>
+      <ul>
+        <li><a href="wineshop.html">יראניב תונחי</a></li>
+        <li><a href="about.html">ונילע</a></li>
+        <li><a href="#">תיצור איתנו קשר </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div class="f-menu fgt">
+     <h2>רשקב היהנ</h2>
+     <ul>
+      <li><span><i class="fa fa-phone" aria-hidden="true"></i></span>+32 (0)04-9830573</li>
+      <li><span><i class="fa fa-envelope"></i></span><a href="#">tulip@tulip-winary.co.il</a></li>
+      <li><span><i class="fa fa-map-marker"></i></span>ןיקב טוליפ, כפר תקווה, קרית טבעון</li>
+
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+  פילוט בקיל תורומש תויוכזה לכ ©
+</div>
+</footer>
+<!--<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+</body>
+</html>

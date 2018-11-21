@@ -1,0 +1,974 @@
+@media(min-width: 300px) and (max-width: 1100px){
+    .top-menu .navbar-nav .micon:last-child {
+    border-right: none;
+}
+.top-menu li.micon {
+    padding: 0px 0px 30px 30px!important;
+}
+/*div#nav-content.show {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    z-index: 9999;
+    background: #ffffff;
+}
+.top-menu{
+    position: relative;
+}*/
+}
+@media(min-width: 300px) and (max-width:479px){
+   .searchbox-open .searchbox-icon {
+    left: 0px;
+}
+.searchbox-icon, .searchbox-submit {
+    left: 0px;
+    right: 190px;
+    padding: 0px 24px 0px 0px;
+}
+.searchbox-input {
+    width: 245px;
+    padding: 0px 0px 0px 0px;
+}
+    .brand-section .brand-box {
+    margin-bottom: 20px;
+}
+    .v-heading {
+    margin-bottom: 5px;
+}
+    h2.vy-heading span.hicon {
+    margin-right: 22px;
+    margin-left: 0;
+}
+.vy-heading span.htext {
+    font-size: 24px;
+}
+.vineyard-section .pr-5{
+    padding-right: 15px!important;
+}
+.vineyard-section .pr-0{
+    padding-right: 15px!important;
+    padding-top: 15px!important;
+}
+.vy-product-content {
+    padding-top: 5px;
+}
+    .ot-form {
+    left: 0px!important;
+ 
+}
+.team-section .col-md-7{
+    padding-right: 15px!important;
+}
+.team-section span.ot-step h2{
+    font-size: 20px;
+}
+    .kft-section {
+    padding: 0px 0px 0px;
+}
+.social-invol-section .social-ins {
+    padding-top: 40px;
+}
+.social-invol-section .social-ins h3:before{
+    display: none;
+}
+.kft-social-heading span.kfh-text{
+    font-size: 20px;
+}
+    .all-product-wine .product-content {
+    padding: 20px 0px 20px;
+}
+.all-product-wine{
+    margin-right: 0px;
+}
+.tulip-product-list h3.white_series_text{
+    text-align:right;
+}
+.all-product-wine h2.product-heading span img{
+ top: 5px;
+}
+.all-product-wine .col-md-6,.all-product-wine .col-md-8,.all-product-wine .col-md-12,.Espero-wine .col-md-12 {
+    padding: 0px;
+}
+.tulip-product-list h3,.tulip-product-list h4{
+    font-size: 28px!important;
+}
+.tulip-product-list .Espero-wine .product-content {
+    padding: 25px 15px 0px;
+}
+.tulip-product-list .p-btn a.btn {
+    width: 115px;
+    font-size: 15px;
+}
+.black-wine .wine-p{
+    background:none!important;
+}
+.black-wine .black-wine-content{
+    background-color: #f6f6f6;
+    padding-right: 15px;
+}
+.black-wine .product-img{
+    background-color: #f6f6f6;
+    padding-right: 15px;
+}
+.r_t_a h4:after,div#tulip h3:before,div#maya h3:before{
+    display: none;
+}
+    .giftcard-heading h3 {
+    width: 280px;
+}
+.giftcart-section h3{
+    font-size: 20px;
+}
+.giftcart-section h3:before{
+    top:11px;
+}
+.giftcard-number-heading .bs-wizard {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.giftcard-number-heading .bs-wizard > .bs-wizard-step > .progress{
+    right:45%;
+}
+.giftcard-number-heading .bs-wizard > .bs-wizard-step {
+    padding: 0px 15px;
+    position: relative;
+    display: inline-block;
+    width: 32%;
+}.giftcart-icon.text-left {
+    text-align: center!important;
+}
+.progress-bar.third-step {
+    background: #ffffff!important;
+}
+        .blog-section {
+    margin-top: 50px;
+}
+.blog-post-section .media-body {
+    padding: 17px 0px 12px 15px;
+    border-top: none;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.blog-post-section img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+}
+.blog-post-section li {
+    margin-bottom: 20px;
+}
+.blog-pagenation {
+    width: 100%;
+    margin: 60px 0px 52px 0px;
+}
+.blog-post-section .media {
+    display: inline-block;
+    width: 100%;
+}
+.blog-post-section img{
+    width: 100%;
+}
+.blog-post-img .pull-left{
+    float: none;
+}
+.featured-article.blog-full-post {
+    margin-bottom: 25px;
+}
+.page-link {
+    padding: 7px 10px!important;
+}
+.blog-pagenation li a, .blog-pagenation li a:hover,.page-item.disabled .page-link {
+    font-size: 14px;
+}
+ul.nav.float-right.tsm, ul.nav.float-left.tm {
+    float: none!important;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+nav.top_smenu .tm li {
+    padding: 15px 6px;
+    display: inline-block;
+}
+.banner-section.mt-5 {
+    margin-top: 20px!important;
+}
+    .tulip-home-banner .banenr-overtext h3 {
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+.tulip-home-banner .banenr-overtext p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.banenr-overtext p.hb-sn a {
+    font-size: 11px;
+    padding: 4px 12px;
+}
+section.homeb-section {
+    margin-top: 20px;
+}
+.hb-text {
+    padding-top: 23px;
+}
+.hb-text h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.ho-wine {
+    padding-top: 23px;
+    width: 100%;
+    display: inline-block;
+}
+span.hb-btn {
+    display: inline;
+}
+.ho-wine-img {
+    margin: 5px 0px;
+}
+.hb-text h3:before {
+    top: 12px;
+}
+.pl15 {
+    padding-left: 20px;
+}
+.hb-text {
+    margin-bottom: 20px;
+}
+section.home-tulip-event {
+    padding-top: 20px;
+}
+.htulip-event-heading h3 {
+    font-size: 20px;
+}
+.htulip-event-heading h3:before {
+    top: 12px;
+}
+section.hcustomer-lab {
+    margin-top: 30px;
+}
+.pr15 {
+    padding-right: 15px;
+}
+.hb-text p {
+    color: #363d48;
+    font-size: 13px;
+    line-height: 21px;
+}
+.enqery-img {
+    top: 5%;
+    padding-bottom: 40px;
+}
+.enqery-img img {
+    width: 100%;
+    padding: 0px 5%;
+}
+.Espero-wine {
+    margin-top: 30px;
+}
+.enqery-content {
+    padding: 30px 15px 0px;
+}
+.enqery-content h3 {
+    font-size: 17px;
+}
+.enqery-content p {
+
+    font-size: 14px;
+    line-height: 26px;
+    padding-right: 0;
+    padding-top: 0;
+  
+}
+.enqery-content .hb-btn {
+    margin: 15px 0px;
+    display: inline-block;
+}
+.tulip-home-banner .banenr-overtext {
+    position: absolute;
+    top:20px;
+}
+	.tsm li {
+    padding-right: 5px;
+    display: inline-block;
+}
+
+ul.nav.float-left.tsm {
+    float: none!important;
+    text-align: center;
+    margin:10px auto auto auto;
+    width: 100%;
+    display: inline-block;
+}
+ul.nav.float-right.tm {
+    float: none!important;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+ul.nav.float-right.tm li {
+    display: inline-block;
+    float: none;
+}
+form.searchbox.top-search-bar {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.searchbox-icon, .searchbox-submit{
+    border-right:none!important;
+}
+section.tulip-maya-product {
+    margin-top: 40px!important;
+}
+.all-product-wine {
+    margin-top: 21px!important;
+}
+div#tulip h3, div#maya h3,.r_t_a h4 {
+   
+    font-size: 30px;
+}
+div#tulip h3:before, div#maya h3:before {
+    top: 17px;
+}
+.r_t_a {
+    margin-top: 0;
+}
+.r_t_a h4:after{
+	top:19px;
+}
+.wine-p .product-img img {
+    max-height: auto!important;
+    width:100%;
+    position: relative;
+    top: 0;
+    
+}
+.Espero-wine .product-content {
+    padding: 0px 30px 25px;
+}
+h3.mt-5.reserve-series {
+    margin-top: 40px!important;
+}
+.product-heading {
+    color: #052b48;
+    font-size: 19px;
+}
+.black-wine .wine-p .product-img img {
+    max-height: auto!important;
+    width: auto;
+    position: relative;
+    top: 0;
+}
+.product-content {
+    padding: 20px 30px 30px;
+}
+.footer-logo {
+    text-align: center;
+}
+ul.nav.fsm {
+    margin-top: 5%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.f-menu {
+    text-align: center;
+}
+.f-menu ul {
+    width: 50%;
+    padding-right: 0px;
+    text-align: center;
+}
+.f-menu ul li {
+    text-align: center;
+    display: grid;
+    width: 100%;
+}
+.f-menu.fgt ul {
+    width: 100%;
+}
+.ot-form {
+    left: 0;
+}
+.our-teams {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.vineyard-section .pl-0{
+	padding-left: 15px!important;
+}
+.vineyard-section .pl-5{
+	padding-left:15px!important;
+}
+.vy-content {
+    padding: 35px 20px;
+}
+
+.enqery-content {
+    padding-bottom: 50px;
+}
+section.home-instagram {
+    margin-top: 50px;
+}
+ul.nav.fsm {
+    margin-top: 30px;
+    direction: ltr;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-left: 0px;
+}
+.footer-section .fsm li {
+    padding: 15px 8px;
+    display: inline-block;
+}
+.footer-section h2 {
+    text-align: center;
+    padding-right: 0;
+    padding-top: 34px;
+}
+.f-menu.fs-menu ul {
+    width: 50%;
+}
+.f-menu.fgt li {
+    float: right;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.htulip-event-heading h3{
+    display: inline!important;
+}
+.visit-bs h3{
+    width: 230px;
+}
+.friend-club-section.vc {
+    padding-top: 40px;
+}
+.contact-form h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.contact-form textarea#exampleFormControlTextarea1 {
+    margin-top: 15px;
+}
+.visit-bs {
+    margin-top: 25px;
+}
+.visit-bi .caption h4 {
+    padding-bottom: 30px;
+}
+.wsp-img img {
+    position: relative;
+    top: 0;
+    padding: 20px 0px;
+}
+.wsp-related-product .col-md-6{
+    padding: 0px 10px;
+}
+.wsp-detail h3, .wsp-related-product h3 {
+  
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.home-tulip-event .event-content {
+    margin-bottom: 20px;
+}
+section.home-query .col-md-12 {
+    padding: 0px 15px;
+}
+.top-menu li:hover {
+    display: inline-block;
+    width: 115px;
+    margin: auto;
+}
+ul.navbar-nav.wc-icon li:first-child .nav-link{
+    border:none!important;
+}
+.top-menu {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+li.nav-item.micon.login-tulip a{
+        display: inline;
+    }
+}
+@media(min-width:480px) and (max-width:767px){
+    li.nav-item.micon.login-tulip a{
+        display: inline;
+    }
+    .brand-section .brand-box {
+    margin-bottom: 20px;
+}
+    .top-menu {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+    ul.navbar-nav.wc-icon li:first-child .nav-link{
+    border:none!important;
+}
+    .top-menu li:hover {
+    display: inline-block;
+    width: 115px;
+    margin: auto;
+}
+    .wsp-img img {
+    position: relative;
+    top: 0;
+    padding: 20px 0px;
+}
+section.home-query .col-md-12 {
+    padding: 0px 15px;
+}
+.wsp-related-product .col-md-6{
+    padding: 0px 10px!important;
+}
+    .v-heading {
+    margin-bottom: 5px;
+}
+       h2.vy-heading span.hicon {
+    margin-right: 22px;
+    margin-left: 0;
+}
+.vy-heading span.htext {
+    font-size: 24px;
+}
+.vineyard-section .pr-5{
+    padding-right: 15px!important;
+}
+.vineyard-section .pr-0{
+    padding-right: 15px!important;
+    padding-top: 15px!important;
+}
+.vy-product-content {
+    padding-top: 5px;
+}
+.vineyard-section .pl-0{
+    padding-left: 15px!important;
+}
+        .ot-form {
+    left: 0px!important;
+ 
+}
+.team-section .col-md-7{
+    padding-right: 15px!important;
+}
+.team-section span.ot-step h2{
+    font-size: 22px;
+}
+.our-teams {
+    margin-top: 25px;
+}
+    .social-invol-section .social-ins h3:before{
+    display: none;
+}
+.social-invol-section .social-ins {
+    padding-top: 50px;
+}
+       .all-product-wine .product-content {
+    padding: 20px 0px 20px;
+}
+.all-product-wine{
+    margin-right: 0px;
+}
+.tulip-product-list h3.white_series_text{
+    text-align:right;
+}
+.all-product-wine h2.product-heading span img{
+ top:2px;
+}
+.all-product-wine .col-md-6,.all-product-wine .col-md-8,.all-product-wine .col-md-12,.Espero-wine .col-md-12 {
+    padding: 0px;
+}
+.tulip-product-list h3,.tulip-product-list h4{
+    font-size: 28px!important;
+}
+.tulip-product-list .Espero-wine .product-content {
+    padding: 25px 15px 0px;
+}
+.tulip-product-list .p-btn a.btn {
+    width: 115px;
+    font-size: 15px;
+}
+.black-wine .wine-p{
+    background:none!important;
+}
+.black-wine .black-wine-content{
+    background-color: #f6f6f6;
+    padding-right: 15px;
+}
+.black-wine .product-img{
+    background-color: #f6f6f6;
+    padding-right: 15px;
+}
+.Espero-wine .wine-p .product-img img,.black-wine .product-img img {
+    position: relative;
+    top: 0;
+
+}
+h3.mt-5.reserve-series {
+    margin-top: 40px!important;
+    margin-bottom: 35px;
+    text-align: right;
+}
+.r_t_a h4:after,div#tulip h3:before,div#maya h3:before{
+    display: none;
+}
+        .giftcard-heading h3 {
+    width: 280px;
+}
+.giftcart-section h3{
+    font-size: 20px;
+}
+.giftcart-section h3:before{
+    top:11px;
+}
+.giftcard-number-heading .bs-wizard {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.giftcard-number-heading .bs-wizard > .bs-wizard-step > .progress{
+    right:45%;
+}
+.giftcard-number-heading .bs-wizard > .bs-wizard-step {
+    padding: 0px 15px;
+    position: relative;
+    display: inline-block;
+    width: 32%;
+}.giftcart-icon.text-left {
+    text-align: center!important;
+}
+.progress-bar.third-step {
+    background: #ffffff!important;
+}
+    .visit-bs h3{
+    width: 230px;
+}
+.friend-club-section.vc {
+    padding-top: 40px;
+}
+.contact-form h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.contact-form textarea#exampleFormControlTextarea1 {
+    margin-top: 15px;
+}
+.visit-bs {
+    margin-top: 25px;
+}
+.visit-bi .caption h4 {
+    padding-bottom: 30px;
+}
+    .about-section {
+    margin-top: 45px!important;
+}
+    .page-link {
+    padding: 14px 18px!important;
+}
+    section.ho-wine {
+    display: inline-block;
+    width: 100%;
+}
+.ho-wine-img{
+    margin-bottom: 25px;
+}
+.hb-text {
+    margin-bottom: 30px;
+}
+.pr15 {
+    padding-right: 20px;
+}
+.hb-text,.ho-wine {
+    padding-top: 45px;
+}
+section.home-tulip-event {
+    padding-top: 50px;
+}
+.event-content {
+    margin-bottom: 20px;
+}
+section.hcustomer-lab,.Espero-wine {
+    margin-top: 50px;
+}
+.enqery-img {
+    top: 35px;
+}
+.enqery-content {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+section.home-instagram {
+    margin-top: 40px;
+}
+ul.nav.fsm {
+    margin-top: 10px;
+    direction: ltr;
+    text-align: center;
+    padding-left: 0;
+    display: inline-block;
+    width: 100%;
+}
+.footer-section .fsm li {
+    padding: 15px 8px;
+    display: inline-block;
+}
+.f-menu.fgt li {
+    margin-left: 20px;
+}
+.top-menu {
+    margin: 8px 0px 0px 0px;
+
+}
+.mt-5{
+    margin-top: 15px!important;
+}
+.tulip-home-banner .banenr-overtext {
+    position: absolute;
+    top: 45px;
+    right:0px;
+}
+.ho-wine .col-md-3{
+    width: 50%;
+    float: left;
+}
+.tulip-home-banner .banenr-overtext p {
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.tulip-home-banner .banenr-overtext h3 {
+    padding-bottom: 0;
+}
+section.homeb-section {
+    margin-top: 30px;
+}
+.featured-article.blog-full-post {
+    margin-bottom: 30px;
+}
+.blog-section {
+    margin-top: 45px;
+}
+}
+@media (min-width: 768px){
+.container {
+    max-width:100%;
+}
+
+}
+@media(min-width:768px) and (max-width:1100px){
+    .wsp-rp a.btn.more-detail,.wsp-rp .addtocart {
+    margin-bottom: 10px;
+}
+    .about-content {
+    padding: 15px 0px 60px;
+}
+.f-menu.fs-menu ul {
+
+    width: 50%;
+}
+.f-menu li a {
+    font-size: 14px;
+}
+.f-menu.fs-menu a {
+    display: block;
+}
+    li.nav-item.micon.login-tulip a{
+        display: inline;
+    }
+    .black-wine-content {
+    padding-left: 0;
+}
+.ps-section h2.product-heading span {
+    float: none;
+    margin-left: 25px;
+}
+.wine-ptext {
+    background: none!important;
+    width: auto!important;
+    margin-right:0px!important;
+}
+.tulip-product-list .product-price{
+    padding-top: 15px;
+}
+div.tulip-product-list .addtocart,div.tulip-product-list .more-detail {
+    margin-bottom: 10px;
+}
+div.tulip-product-list .p-btn {
+    margin-top: 30px;
+}
+    .top-menu li:hover {
+    display: inline-block;
+    width: 115px;
+    margin: auto;
+}
+ul.navbar-nav.wc-icon li:first-child .nav-link{
+    border:none!important;
+}
+    h2.vy-heading span.hicon{
+        margin-left: 0px;
+    }
+    .vy-product-content {
+    padding-top: 7px;
+}
+.vy-product-content p{
+    padding-top: 5px;
+}
+    .social-ins h3:before{
+        right:229px;
+    }
+    .giftcard-heading h3 {
+    width: 385px;
+}
+    .friend-club-section.vc {
+    padding-top: 35px;
+}
+.visit-bs h3{
+    width: 230px;
+}
+    .blog-section {
+    margin-top: 50px;
+}
+.blog-post-section .media-body {
+    padding: 17px 0px 12px 15px;
+    border-top: none;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.blog-post-section img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+}
+.blog-post-section li {
+    margin-bottom: 20px;
+}
+.blog-pagenation {
+    width: 100%;
+    margin: 60px 0px 52px 0px;
+}
+.blog-post-section .media {
+    display: inline-block;
+    width: 100%;
+}
+.blog-post-section img{
+    width: 100%;
+}
+.blog-post-img .pull-left{
+    float: none;
+}
+.top-menu {
+    margin: 20px 0px 0px 0px;
+}
+.banner-section.mt-5 {
+    margin-top: 25px!important;
+}
+.ho-wine-img p.ho-wine-text a {
+    padding-top: 6px;
+  font-size: 20px;
+}
+.ho-wine-img p.ho-wine-text{
+    width: 155px;
+}
+.tulip-home-banner .banenr-overtext{
+    top:120px;
+}
+.tulip-home-banner .banenr-overtext p {
+    font-size: 25px;
+    line-height: 38px;
+}
+section.homeb-section {
+    margin-top: 50px;
+}
+.hb-text {
+    padding-top: 15px;
+}
+.pr15 {
+    padding-right: 20px;
+}
+.ho-wine {
+    padding-top: 50px;
+}
+section.homeb-section {
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+}
+.pl15 {
+    padding-left: 20px;
+}
+section.home-tulip-event {
+    padding-top: 50px;
+}
+.event-desc {
+    padding: 15px 10px 0px;
+}
+section.hcustomer-lab {
+    margin-top: 50px;
+}
+.f-menu ul {
+
+    padding: 15px 20px 0px 0px;
+}
+.footer-section h2{
+    padding-right: 30px;
+}
+ul.nav.fsm {
+
+    display: inline-block;
+    padding-left: 0;
+    width: 100%;
+}
+.footer-section .fsm li {
+    padding: 15px 8px;
+    display: inline-block;
+}
+}
+@media(min-width:1100px) and (max-width:1200px){
+    li.nav-item.micon.login-tulip a{
+        display: inline;
+    }
+    ul.navbar-nav.wc-icon li:first-child .nav-link{
+        border-left: none;
+    }
+    .top-menu li.micon {
+    padding: 20px 0px 2px!important;
+}
+    }
+@media(min-width:1101px) and (max-width:1265px){
+div.tulip-product-list .p-btn a.btn {
+    width: 108px;
+    height: 50px;
+    font-size: 15px;
+}
+     .social-ins h3:before{
+        right:229px;
+    }
+        .giftcard-heading h3 {
+    width: 385px;
+}
+    .friend-club-section.vc {
+    padding-top: 50px;
+}
+.visit-bs h3{
+    width: 230px;
+}
+.tulip-home-banner .banenr-overtext{
+    top:125px;
+}
+}
